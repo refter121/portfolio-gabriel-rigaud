@@ -1,68 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <link rel="icon" type="image/x-icon" href="./image/favicontrans.ico">
+    <meta name="description" content="Portfolio de Gabriel Rigaud, étudiant en BTS SIO. Découvrez mes compétences, projets et expériences.">
+    <title>Portfolio - Gabriel Rigaud</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./image/favicontrans.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <nav class="button-container">
-                <img src="./image/favicontrans.ico" alt="Logo">
+                <img src="./image/favicontrans.ico" alt="Logo du portfolio de Gabriel Rigaud">
                 <a href="#about">À propos de moi</a>
                 <a href="#skills">Mes compétences</a>
-                <a href="#experience">Vie professionnelle</a>
+                <a href="#experience">Stage</a>
                 <a href="#projects">Projets</a>
+                <a href="#veille">Veille Technologique</a>
             </nav>
         </header>
         <main class="main-content">
             <h1>Portfolio</h1>
 
             <!-- À propos de moi -->
-            <div id="about" class="block">
+            <section id="about" class="block">
                 <h2>À propos de moi</h2>
-                <p>Je suis Gabriel RIGAUD, élève en 2ème année de mon BTS SIO au Lycée Dominique Villars à Gap.
-                    Le BTS SIO, service informatique aux organisations, est un BTS qui forme à l'informatique.
-                    Il possède deux branches : SLAM (développement) et SISR (réseau). J'ai choisi l'option développement
-                    car résoudre des problèmes logiques me passionne. Je souhaite poursuivre mes études afin d'accroître
-                    mes compétences et retarder mon entrée dans la vie active.</p>
-            </div>
+                <p>
+                    Je suis Gabriel Rigaud, élève en 2ème année de mon BTS SIO au Lycée Dominique Villars à Gap.
+                    Le BTS SIO (Services Informatiques aux Organisations) forme à l'informatique et se divise en deux options :
+                    SLAM (développement) et SISR (réseau). J'ai choisi l'option développement car résoudre des problèmes logiques me passionne.
+                    Je souhaite poursuivre mes études afin d'approfondir mes compétences avant d'entrer dans la vie active.
+                </p>
+            </section>
 
             <!-- Mes compétences -->
-            <div id="skills" class="block black">
+            <section id="skills" class="block black">
                 <h2>Mes compétences</h2>
-                <p>Voici mon CV: <a href="./document/CV Gabriel RIGAUD.pdf" target="_blank">Mon CV</a></p>
-                <p>Je connais ces langages de programmation :</p>
-                <img src="./image/css-3.svg" alt="CSS">
-                <img src="./image/HTML-5-Badge-Logo.png" alt="HTML">
-                <img src="./image/Java_Logo.svg" alt="Java">
-                <img src="./image/PHP-logo.svg.png" alt="PHP">
-                <img src="./image/sql-65abb94c4195c573530652.png" alt="SQL">
-            </div>
+                <p>Voici mon CV : <a href="./document/CV Gabriel RIGAUD.pdf" target="_blank">Télécharger mon CV (PDF)</a></p>
+                <p>Langages de programmation que je maîtrise :</p>
+                <div class="skills-list">
+                    <img src="./image/css-3.svg" alt="Logo CSS">
+                    <img src="./image/HTML-5-Badge-Logo.png" alt="Logo HTML">
+                    <img src="./image/Java_Logo.svg" alt="Logo Java">
+                    <img src="./image/PHP-logo.svg.png" alt="Logo PHP">
+                    <img src="./image/sql-65abb94c4195c573530652.png" alt="Logo SQL">
+                </div>
+            </section>
 
             <!-- Vie professionnelle -->
-            <div id="experience" class="block">
+            <section id="experience" class="block">
                 <h2>Vie professionnelle</h2>
-                <p>Premier stage : réalisé en télétravail pour le CSE de Kemone, une entreprise spécialisée dans la chimie industrielle, 2eme producteur mondial de plastique.
-                    J'ai participé à plusieurs projets informatiques et contribué à l'amélioration de leur site web (du CSE).
-                    <br><a href="https://docs.google.com/document/d/1Eb46-qFxU-_tN6FuhQmID-nviXh7TNPDDWfyYnMGX2E/edit#heading=h.jqnz3o3knfzb" target="_blank">Consulter mon rapport de stage</a></p>
-            </div>
+                <p>
+                    Premier stage : réalisé en télétravail pour le CSE de Kemone, une entreprise spécialisée dans la chimie industrielle 
+                    et 2ème producteur mondial de plastique. J'ai participé à plusieurs projets informatiques et contribué à l'amélioration 
+                    de leur site web.
+                    <br>
+                    <a href="https://docs.google.com/document/d/1Eb46-qFxU-_tN6FuhQmID-nviXh7TNPDDWfyYnMGX2E/edit#heading=h.jqnz3o3knfzb" 
+                       target="_blank">Consulter mon rapport de stage</a>
+                </p>
+            </section>
 
             <!-- Projets -->
-            <div id="projects" class="block black">
+            <section id="projects" class="block black">
                 <h2>Projets</h2>
-                <p>J'ai mené plusieurs projets cette année, notamment la création de ce portfolio, une veille technologique
-                    et un projet de développement d'applications (M2L) avec gestion de bases de données pour les compétitions sportives.</p>
-            </div>
-        </main>        
+                <p>
+                    J'ai mené plusieurs projets cette année, notamment la création de ce portfolio, une veille technologique 
+                    et un projet de développement d'applications (M2L) avec gestion de bases de données pour les compétitions sportives.
+                </p>
+            </section>
+
+            <!-- Veille Technologique -->
+            <section id="veille" class="block">
+                <h2>Veille Technologique</h2>
+                <p>
+                    Sujet : L'essor de l'intelligence artificielle à travers les Générateurs d'IA (GenAI).
+                </p>
+                <p>
+                    Les GenAI, représentés par des outils comme ChatGPT, génèrent du texte, des images et des vidéos
+                    pour répondre à des requêtes humaines. Je suis convaincu que ces technologies influenceront fortement les 
+                    10 prochaines années. J'ai donc mis en place une veille technologique afin de suivre leur évolution 
+                    et mieux comprendre leurs impacts.
+                </p>
+                <p>
+                    <a href="./document/veille-technologique.pdf" target="_blank">Télécharger mon rapport de veille (PDF)</a>
+                </p>
+            </section>
+        </main>
 
         <!-- Footer -->
         <footer>
             <p>&copy; 2024 Gabriel Rigaud. Tous droits réservés.</p>
-        </footer>    
+        </footer>
     </div>
 </body>
 </html>
