@@ -1,4 +1,8 @@
 /* Styles généraux */
+*::selection {
+  background-color: #ffcc00; /* Couleur de surlignage */
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -41,10 +45,6 @@ body.scrolled header {
 
 .button-container img {
     width: 50px;
-}
-
-::selection {
-  background-color: #ffcc00; /* Couleur de surlignage */
 }
 
 .button-container a {
