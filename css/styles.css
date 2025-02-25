@@ -43,6 +43,10 @@ body.scrolled header {
     width: 50px;
 }
 
+::selection {
+  background-color: #ffcc00; /* Couleur de surlignage */
+}
+
 .button-container a {
     color: #4C94FF;
     text-decoration: none;
