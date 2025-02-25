@@ -1,5 +1,10 @@
 /* Styles généraux */
+margin{
+  margin:0;
+  padding:0;
+}
 *::selection {
+  color: rgb(255,255,255);
   background-color: #ffcc00; /* Couleur de surlignage */
 }
 
