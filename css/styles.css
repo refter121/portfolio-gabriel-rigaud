@@ -62,7 +62,7 @@ body.scrolled header {
 }
 
 .button-container a:hover {
-    background-color: rgba(76, 148, 255, 0.15);
+    background-color: rgb(255, 255, 255);
 }
 
 .main-content {
